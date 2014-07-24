@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Fix tabs in github",
+  "description": "This extension make tabs to use just 4 spaces instead of 8 in github.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
