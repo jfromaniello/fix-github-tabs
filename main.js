@@ -8,4 +8,4 @@ function addGlobalStyle(css) {
   head.appendChild(style);
 }
 
-addGlobalStyle('.file-box .line {tab-size: 4; -moz-tab-size: 4; -o-tab-size: 4; white-space: pre-wrap;}');
+addGlobalStyle('.file-box .line {tab-size: 4; -moz-tab-size: 4; -o-tab-size: 4; }');
